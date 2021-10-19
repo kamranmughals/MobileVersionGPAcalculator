@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gpa Calculator</title>
+    <link rel="icon" href="./icons/exam.png">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="title1">Gpa Calculator</h1>
+        <h3 class="title2">(By Kamran Ahsan)</h3>
+    </div>
+    <div class="container">
+        <div class="label-area">
+            <span>Select Grade</span>
+            <span>Points</span>
+            <span>Credit Hours</span>
+            <span>Total Points</span>
+            <ul>
+                <li><p class="lead1">Subject No.1</p></li>
+            </ul>
+            <div class="grade-select">
+                <select name="grade-selector1" class="custom-select" id="grade1">
+                    <option value="">Select</option>
+                    <option value="4.00">A+</option>
+                    <option value="3.70">A</option>
+                    <option value="3.40">B+</option>
+                    <option value="3.00">B</option>
+                    <option value="2.50">B-</option>
+                    <option value="2.00">C+</option>
+                    <option value="1.50">C</option>
+                    <option value="1.00">D</option>
+                    <option value="0.00">F</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="points1">
+                </div>
+                <select name="" id="credit-hour1" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">none</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="tpoints1">
+                </div>
+            </div>
+            <!-- 2 -->
+            <ul>
+                <li><p class="lead">Subject No.2</p></li>
+            </ul>
+            <div class="grade-select">
+                <select name="grade-selector2" id="grade2" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4.00">A+</option>
+                    <option value="3.70">A</option>
+                    <option value="3.40">B+</option>
+                    <option value="3.00">B</option>
+                    <option value="2.50">B-</option>
+                    <option value="2.00">C+</option>
+                    <option value="1.50">C</option>
+                    <option value="1.00">D</option>
+                    <option value="0.00">F</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="points2">
+                </div>
+                <select name="" id="credit-hour2" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">none</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="tpoints2">
+                </div>
+            </div>
+            <!-- 3 -->
+            <ul>
+                <li><p class="lead">Subject No.3</p></li>
+            </ul>
+            <div class="grade-select">
+                <select name="" id="grade3" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4.00">A+</option>
+                    <option value="3.70">A</option>
+                    <option value="3.40">B+</option>
+                    <option value="3.00">B</option>
+                    <option value="2.50">B-</option>
+                    <option value="2.00">C+</option>
+                    <option value="1.50">C</option>
+                    <option value="1.00">D</option>
+                    <option value="0.00">F</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="points3">
+                </div>
+                <select name="" id="credit-hour3" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">none</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="tpoints3">
+                </div>
+            </div>
+            <!-- 4 -->
+            <ul>
+                <li><p class="lead">Subject No.4</p></li>
+            </ul>
+            <div class="grade-select">
+                <select name="" id="grade4" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4.00">A+</option>
+                    <option value="3.70">A</option>
+                    <option value="3.40">B+</option>
+                    <option value="3.00">B</option>
+                    <option value="2.50">B-</option>
+                    <option value="2.00">C+</option>
+                    <option value="1.50">C</option>
+                    <option value="1.00">D</option>
+                    <option value="0.00">F</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="points4">
+                </div>
+                <select name="" id="credit-hour4" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">none</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="tpoints4">
+                </div>
+            </div>
+            <!-- 5 -->
+            <ul>
+                <li><p class="lead">Subject No.5</p></li>
+            </ul>
+            <div class="grade-select">
+                <select name="" id="grade5" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4.00">A+</option>
+                    <option value="3.70">A</option>
+                    <option value="3.40">B+</option>
+                    <option value="3.00">B</option>
+                    <option value="2.50">B-</option>
+                    <option value="2.00">C+</option>
+                    <option value="1.50">C</option>
+                    <option value="1.00">D</option>
+                    <option value="0.00">F</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="points5">
+                </div>
+                <select name="" id="credit-hour5" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">none</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="tpoints5">
+                </div>
+            </div>
+            <!-- 6 -->
+            <ul>
+                <li><p class="lead">Subject No.6</p></li>
+            </ul>
+            <div class="grade-select">
+                <select name="" id="grade6" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4.00">A+</option>
+                    <option value="3.70">A</option>
+                    <option value="3.40">B+</option>
+                    <option value="3.00">B</option>
+                    <option value="2.50">B-</option>
+                    <option value="2.00">C+</option>
+                    <option value="1.50">C</option>
+                    <option value="1.00">D</option>
+                    <option value="0.00">F</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="points6">
+                </div>
+                <select name="" id="credit-hour6" class="custom-select">
+                    <option value="">Select</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="0">none</option>
+                </select>
+                <div class="input-area">
+                    <input type="text" value="" id="tpoints6">
+                </div>
+            </div>
+        </div>
+        <div class="current-gpa">
+            <label for="">Prev-Semester*</label>
+            <input type="text" value="" placeholder="Previous Gpa" id="currentGpa">
+        </div>
+        <div class="current-credit">
+            <label for="">Credit Hours*</label>
+            <input type="text" value="" placeholder="Previous Credit" id="currentCredit">
+        </div>
+        <!-- Calculate area -->
+        <div class="content">
+            <div class="calc-butn">
+                <button type="button" class="btn">Calculate</button>
+            </div>
+            <div class="content-area">
+                <div class="output-area">
+                    <span>Sum *</span>
+                    <input type="text" value="" class="output" id="sum">
+                </div>
+                <div class="output-area">
+                    <span>Credit Hours*</span>
+                    <input type="text" value="" class="output" id="creditHours">
+                </div>
+                <div class="output-area">
+                    <span>Final GPA*</span>
+                    <input type="text" value="" class="output" id="gpa">
+                </div>
+                <div class="output-area">
+                    <span>CGPA *</span>
+                    <input type="text" value="" class="output" id="cgpa">
+                </div> 
+            </div>
+        </div>
+            
+        <footer class="footer-area">
+            <span>&copy; Copyright 2021, All right reserved. Designed by Kamran Ahsan ❣</span>
+        </footer>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

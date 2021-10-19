@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" !important;
+}
+.navbar{
+    background: linear-gradient(45deg, #43cea2, #185a9d);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.title2{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.1);
+}
+.container{
+    display: flex;
+    background: #e3f1f5;
+    height: 100vh;
+}
+.label-area{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+span{
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.grade-select{
+    margin: 10px auto;
+    display: flex;
+    padding: 10px;
+}
+.custom-select{
+    padding: 10px;
+    border:  1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+.custom-select:focus{
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, .5);
+}
+
+input{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+@media (max-width: 600px){
+    body{
+        background-color: #e3f1f5 !important;
+    }
+    .navbar{
+        padding: 5px;
+        font-size: 10px;
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+    }
+    .title2{
+        font-size: 12px;
+    }
+    .container{
+        display: block;
+        background: #e3f1f5;
+        height: 72vh;
+        width: 100%;
+    }
+    .label-area{
+        display: inline-block;
+        font-size: 11px;
+        width: 100%;
+    }
+    span{
+        background: #43cea2;
+        margin-right: 10px;
+        color: white;
+        padding: 0.3750em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    .lead1{
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 20px;
+        font-weight: 700;
+        color: #185a9d;
+    }
+    .lead{
+        text-align: left;
+        font-weight: 700;
+        margin-left: 20px;
+        color: #185a9d;
+    }
+    .grade-select{
+        padding: 0.3750em;
+        justify-content: center;
+        text-align: center;
+    }
+    .custom-select{
+        padding: 0.3750em;
+        border:  1px solid #dddddd;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 75px;
+        height: 35px;
+        background-color: white !important;
+    }
+    .custom-select:focus,
+    .custom-select:hover{
+        outline: 0;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, .5);
+    }
+    input{
+        width: 60px;
+        padding: 0.44em;
+        margin: 0.2em;
+        border-radius: 5px;
+        border:  1px solid #dddddd;
+        text-align: center;
+        font-weight: 500;
+        color: #185a9d;
+    }
+    input:focus{
+        outline: 0;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, .5);
+    }
+    .current-gpa{
+        background-color: #e3f1f5;
+        margin-bottom: 10px;
+    }
+    .current-gpa label{
+        background: linear-gradient(100deg, #43cea2, #185a9d);
+        border-radius: 10px;
+        margin-left: 75px;
+        border: none;
+        font-weight: 600;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+        font-size: 0.9rem;
+        color: white;
+        padding: 8px 8px;
+    }
+    .current-gpa input{
+        width: 120px;
+        font-weight: 600;
+        color: #185a9d;
+    }
+    .current-credit{
+        background-color: #e3f1f5;
+        
+    }
+    .current-credit input{
+        width: 120px;
+        font-weight: 600;
+        color: #185a9d;
+    }
+    .current-credit label{
+        margin-left: 75px;
+        background: linear-gradient(100deg, #43cea2, #185a9d);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .calc-butn{
+        background: #e3f1f5;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .calc-butn button{
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: none;
+        background: #185a9d;
+        color: white;
+        font-weight: 600;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1), 0.6s ease;
+    }
+    .calc-butn button:hover{
+        background: #43cea2;
+    }
+    .output-area{
+        background: #e3f1f5;
+    }
+    .output-area span{
+        background: none;
+        border:none;
+        box-shadow: none;
+        color: #185a9d;
+        text-align: left;
+        display: block;
+        background: linear-gradient(45deg, #43cea2, #185a9d);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: -2px;
+    }
+    .output-area input{
+        width: 95px;
+        font-weight: 600;
+        color: #185a9d;
+    }
+    .content-area{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5px auto;
+    }
+    /* .container-fluid{
+        background-color: #e3f1f5;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    } */
+    /* .cal-butn button{
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        background-color: #185a9d;
+        color: white;
+        transition: 0.5s ease;
+        transform: translateY(3px);
+        border: none;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    } */
+    /* .cal-butn button:hover{
+        background-color: #43cea2;
+    }
+    .content-area label{
+        display: block;
+        background: linear-gradient(45deg, #43cea2, #185a9d);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    } */
+    /* .content-area{
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .content-area input{
+        display: block;
+        width: 100px;
+        margin-right: 40px;
+    } */
+    .footer-area{
+        background: #333;
+        text-align: center;
+        overflow: hidden;
+    }
+    .footer-area span{
+        background: none;
+        border: none;
+        box-shadow: none;
+        color: white;
+        font-size: 0.6rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
